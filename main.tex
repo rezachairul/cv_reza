@@ -1,0 +1,39 @@
+\documentclass{styles/cv}
+
+% External Data & Commands
+\input{styles/commands}
+\input{data/personal}
+
+% =========================
+% Language Switch
+% true  = English
+% false = Indonesian
+% =========================
+\newif\ifenglish
+\englishfalse
+\englishtrue   % aktifkan ini kalau mau English
+
+\begin{document}
+
+% Profile / Header
+\input{sections/profile}
+
+% Education
+\input{sections/education}
+
+% Organization
+\input{sections/organization}
+
+% Experience
+\input{sections/experience}
+
+% Projects
+\input{sections/projects}
+
+% Languages
+\input{sections/language}
+
+% Skills
+\input{sections/skills}
+
+\end{document}

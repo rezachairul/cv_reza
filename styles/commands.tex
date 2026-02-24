@@ -1,0 +1,27 @@
+% commands.tex
+
+% Divider ATS-safe
+\newcommand{\sectionline}{
+  \vspace{-6pt}
+  \hrule
+  \vspace{4pt}
+}
+
+% Section wrapper
+\newcommand{\cvsection}[1]{
+  \section*{#1}
+  \sectionline
+}
+
+% Experience / Project item
+\newcommand{\cvitem}[3]{
+  \textbf{#1} \hfill \textbf{#2}\\
+  \textit{#3}
+}
+
+% Bullet list ATS-friendly
+\newenvironment{cvlist}{
+  \begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+}{
+  \end{itemize}
+}
