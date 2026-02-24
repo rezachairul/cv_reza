@@ -64,7 +64,7 @@ Berisi konten CV yang dipisah per bagian:
 | `projects.tex` | Proyek |
 | `skills.tex` | Hard skill & soft skill |
 
-> Saat ini folder ini **belum digunakan**, karena seluruh isi masih ada di `main.tex`.
+> Saat ini folder ini **sudah dapat digunakan**, seluruh isi sudah di update di `main.tex`.
 
 ---
 
@@ -91,23 +91,6 @@ Aset visual seperti:
 - foto profil
 - ikon sosial media
 - logo tambahan
-
----
-
-## Status Saat Ini
-
-- ✅ CV masih **single-file**
-- ⏳ Struktur modular **belum diimplementasikan**
-- �� Next step: memindahkan tiap section ke folder `sections/`
-
----
-
-## Rencana Refactoring
-
-1. Pindahkan tiap bagian dari `main.tex` ke file di `sections/`
-2. Pindahkan personal data ke `data/personal.tex`
-3. Buat macro untuk section & separator di `styles/commands.tex`
-4. (Opsional) Migrasi ke custom `cv.cls`
 
 ---
 
