@@ -38,6 +38,7 @@ Saat ini, seluruh isi CV masih berada dalam satu file (`main.tex`), namun strukt
  ┃ ┗ 📜cv.cls
  ┣ 📜README.md
  ┗ 📜main.tex
+ ```
 
 ---
 
