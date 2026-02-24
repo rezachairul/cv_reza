@@ -16,6 +16,7 @@ Saat ini, seluruh isi CV masih berada dalam satu file (`main.tex`), namun strukt
 ---
 
 ## Struktur Folder
+```plaintext
 📦CV_Reza_Chairul_Manam
  ┣ 📂.git
  ┣ 📂assets
