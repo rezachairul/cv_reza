@@ -16,27 +16,27 @@ Saat ini, seluruh isi CV masih berada dalam satu file (`main.tex`), namun strukt
 ---
 
 ## Struktur Folder
-cv/
-├── main.tex
-├── assets/
-│ ├── photo.jpg
-│ └── icons/
-│ ├── linkedin.png
-│ └── github.png
-├── sections/
-│ ├── profile.tex
-│ ├── education.tex
-│ ├── experience.tex
-│ ├── organization.tex
-│ ├── skills.tex
-│ └── projects.tex
-├── styles/
-│ ├── cv.cls
-│ └── commands.tex
-├── data/
-│ └── personal.tex
-└── README.md
-
+📦CV_Reza_Chairul_Manam
+ ┣ 📂.git
+ ┣ 📂assets
+ ┃ ┗ 📂image
+ ┃ ┃ ┣ 📜foto_reza_chairul.jpg
+ ┃ ┃ ┗ 📜foto_reza_chairul.png
+ ┣ 📂data
+ ┃ ┗ 📜personal.tex
+ ┣ 📂sections
+ ┃ ┣ 📜education.tex
+ ┃ ┣ 📜experience.tex
+ ┃ ┣ 📜language.tex
+ ┃ ┣ 📜organization.tex
+ ┃ ┣ 📜profile.tex
+ ┃ ┣ 📜projects.tex
+ ┃ ┗ 📜skills.tex
+ ┣ 📂styles
+ ┃ ┣ 📜commands.tex
+ ┃ ┗ 📜cv.cls
+ ┣ 📜README.md
+ ┗ 📜main.tex
 
 ---
 
